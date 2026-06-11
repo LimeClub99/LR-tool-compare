@@ -76,7 +76,10 @@ export function AboutTab({ onNext }: AboutTabProps) {
 
       <section className="panel">
         <p className="muted small about-privacy">
-          Everything runs in your browser. This tool doesn't use the cloud. You can review the source code yourself, here: X
+          Everything runs in your browser. This tool doesn't use the cloud. You can review the source code yourself, here:{' '}
+          <a href="https://github.com/LimeClub99/LR-tool-compare" target="_blank" rel="noopener noreferrer">
+            github.com/LimeClub99/LR-tool-compare
+          </a>
         </p>
 
         <div className="row gap" style={{ alignItems: 'center', marginTop: 4 }}>
