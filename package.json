@@ -1,0 +1,26 @@
+{
+  "name": "lr-ai-editing-benchmark",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Browser-based Lightroom catalog benchmarking tool — port of the Python LR AI Benchmark.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "sql.js": "latest"
+  },
+  "devDependencies": {
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/sql.js": "^1.4.11",
+    "@vitejs/plugin-react": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  }
+}
